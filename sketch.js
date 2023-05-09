@@ -8,7 +8,7 @@
 let points = [];
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(400, 200);
   pixelDensity(1);
   for (let i = 0; i < 20; i++) {
     points[i] = createVector(random(width), random(height), random(width));
